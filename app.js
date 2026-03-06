@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("API calculatrice opérationnelle");
+  res.send("API calculatrice opérationnelle - version 2");
 });
 
 app.get("/add", (req, res) => {
