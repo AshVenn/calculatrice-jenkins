@@ -1,0 +1,19 @@
+{
+  "name": "calculatrice-jenkins",
+  "version": "1.0.0",
+  "description": "Application Node.js calculatrice pour Jenkins CI/CD",
+  "main": "serveur.js",
+  "scripts": {
+    "start": "node serveur.js",
+    "test": "jest --runInBand"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
